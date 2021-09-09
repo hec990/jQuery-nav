@@ -18,8 +18,8 @@
 <body>
 	 <header class="globalHeader">
 		 <form action="https://www.baidu.com/s" method="get" class="searchForm">
-		 	<input type="text" name="wd">
-			<button type="submit">搜索</button>
+		 	<input type="text" name="wd" placeholder="百度一下~">
+			<button type="submit" class="search">搜索</button>
 		 </form>
 	 </header>
 	 
@@ -37,26 +37,21 @@
 					<div class="link">acfun.cn</div>
 				</div>
 			</li>
-			<li>
-				<div class="nav">
-					<div class="logo">A</div>
-					<div class="link">acfun.cn</div>
-				</div>
-			</li>
-			<li>
-				<div class="nav">
+			<li class="last">
+				<div class="addNav">
 					<div class="logo">
 						<svg class="icon">
 						    <use xlink:href="#icon-add"></use>
 						</svg>
 					</div>
-					<div class="link">新增网站</div>
+					<div class="text">新增网站</div>
 				</div>
 			</li>
 		 </ul>
 	 </main>
 	 
 	 <script src="//at.alicdn.com/t/font_2794708_5we283d5phu.js"></script>
-	 
+	 <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <script src="./js/main.js"></script>
 </body>
 </html>

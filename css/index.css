@@ -49,7 +49,7 @@ body {
 /* main css */
 
 .globalMain>.navList {
-	margin: 10px 20px;
+	margin: 10px 40px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -72,6 +72,19 @@ body {
 	position: relative;
 	cursor: pointer;
 }
+.navList>.last >.addNav {
+	width: 160px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	background: white;
+	border: 1px solid #DDD;
+	border-radius: 4px;
+	padding: 20px 0;
+	position: relative;
+	cursor: pointer;
+}
 
 .nav>.logo {
 	width: 64px;
@@ -82,8 +95,18 @@ body {
 	font-size: 64px;
 }
 
+.last > .addNav > .logo > .icon {
+	width: 64px;
+	height: 64px;
+}
+.last > .addNav > .logo > .link {
+	font-size: 14px;
+	margin-top: 4px;
+}
+
 .nav>.link {
 	font-size: 14px;
 	margin-top: 4px;
 }
+
 
