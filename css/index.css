@@ -23,6 +23,7 @@ body {
 	padding: 20px;
 	display: flex;
 	justify-content: center;
+	position: relative;
 }
 
 .searchForm>input {
@@ -40,7 +41,6 @@ body {
 	border-radius: 5px;
 }
 
-/* pc端 使用 */
 .searchForm button:hover {
 	cursor: pointer;
 }
@@ -49,10 +49,8 @@ body {
 /* main css */
 
 .globalMain>.navList {
-	margin: 10px 40px;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
 }
 
 .navList>li {
@@ -60,19 +58,6 @@ body {
 }
 
 .navList>li>.nav {
-	width: 160px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-direction: column;
-	background: white;
-	border: 1px solid #DDD;
-	border-radius: 4px;
-	padding: 20px 0;
-	position: relative;
-	cursor: pointer;
-}
-.navList>.last >.addNav {
 	width: 160px;
 	display: flex;
 	justify-content: center;

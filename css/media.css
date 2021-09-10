@@ -1,0 +1,58 @@
+/*iPhone6/7/8*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-device-pixel-ratio: 2) {
+	.navList {
+		margin: 10px 20px !important;
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+/*iPhone6/7/8 Plus*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-device-pixel-ratio: 3) {
+	.navList>li {
+		  margin-left: 30px;
+	}
+}
+
+
+/*iPhone X*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+	.navList {
+		/* border: 1px solid red; */
+	}
+	.navList>li {
+		  margin-left: 18px;
+	}
+}
+
+/* ipad横屏 */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+	.navList>li {
+		margin: 16px;
+	}
+}
+
+/* ipad竖屏 */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+	.navList>li {
+		margin: 11px;
+	}
+}
+
+/* 中等屏幕 */
+ @media screen and (min-width: 1024px) and (max-width: 2048px){
+	 .globalMain {
+		 display: flex;
+		 justify-content: center;
+	 }
+	 .navList {
+		 width: 960px;
+		 border: 1px solid #ddd;
+	 }
+	 .navList>li {
+	 	margin: 15px;
+	 }
+	 .navList>li>.nav:hover {
+		 background: #0282B9;
+	 }
+ } 
