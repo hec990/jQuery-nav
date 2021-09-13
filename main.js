@@ -13,8 +13,11 @@ $(search).on('click', (e) => {
 })
 
 const hashMap = xObject || [
-  {logo: 'G', url: 'https://kaifa.baidu.com/'},
-  {logo: 'B', url: 'https://www.bilibili.com'}
+  {logo: 'G', url: 'https://github.com/hec990'},
+  {logo: 'B', url: 'https://www.bilibili.com'},
+  {logo: 'Z', url: 'https://www.zhihu.com/'},
+  {logo: 'Y', url: 'https://www.yuque.com/'},
+  {logo: 'Y', url: 'https://fanyi.youdao.com/'}
 ]
 const simplifyUrl = (url) => {
   return url.replace('https://', '')
@@ -63,10 +66,10 @@ $('.addButton').on('click', () => {
   render()
 })
 
-// window.onbeforeunload = () => {
-//   const string = JSON.stringify(hashMap)
-//   localStorage.setItem('x', string)
-// }
+window.onbeforeunload = () => {
+  const string = JSON.stringify(hashMap)
+  localStorage.setItem('x', string)
+}
 
 $(document).on('keypress', (e) => {
   const {key} = e
