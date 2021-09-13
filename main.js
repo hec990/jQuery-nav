@@ -13,7 +13,7 @@ $(search).on('click', (e) => {
 })
 
 const hashMap = xObject || [
-  {logo: 'G', url: 'https://github.com/hec990'},
+  {logo: 'G', url: 'https://kaifa.baidu.com/'},
   {logo: 'B', url: 'https://www.bilibili.com'}
 ]
 const simplifyUrl = (url) => {
